@@ -10,6 +10,17 @@ public class MyJob implements SimpleJob {
 
     @Override
     public void execute(ShardingContext shardingContext) {
+        switch (shardingContext.getShardingItem()) {
+            case 0:
+
+                break;
+            case 1:
+
+                break;
+            case 2:
+
+                break;
+        }
 
     }
 
